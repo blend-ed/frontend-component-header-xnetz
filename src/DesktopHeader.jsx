@@ -122,7 +122,7 @@ class DesktopHeader extends React.Component {
       intl,
       appMenu,
     } = this.props;
-    const logoProps = { src: logo, alt: logoAltText, href: logoDestination };
+    const logoProps = { src: logo, alt: logoAltText, href: logoDestination, style: {height: "32px !important"} };
     const logoClasses = getConfig().AUTHN_MINIMAL_HEADER ? 'mw-100' : null;
 
     return (
